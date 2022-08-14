@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define max 5      
+#define max 7     
 
 int top,a[max];
 
@@ -15,7 +15,7 @@ void push(void)
                                                         
          printf("Enter a no.\n");
          scanf("%d",&x);
-top++;
+ top++;
          a[top]=x;    //increment the top and inserting element
          printf("%d succ. pushed\n",x);          
          return;
