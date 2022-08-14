@@ -9,7 +9,7 @@ void push(void)
          int x;
          if(top==max-1)    
          {
-                 printf("Stack Overflow\n");
+                 printf("Stack is full\n");
                  return;
          }
                                                         
@@ -26,7 +26,7 @@ void pop(void)
          int y;
          if(top==-1)                                                            
          {
-                 printf("stack underflow\n");
+                 printf("stack is empty\n");
                  return;
          }
          y=a[top];
@@ -81,6 +81,6 @@ int main (void)
                               default :printf("Wrong Choice\n");
                               break;
                    }
-          }while(c!=5); 
+          }while(c!=0); 
 }
 
