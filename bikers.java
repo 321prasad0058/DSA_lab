@@ -7,6 +7,7 @@ public class bikers1
     int avg;
 
     avg=(s1+s2+s3+s4+s5)/5;
+	System.out.println("Average is %d", avg );	
 
     if(s1>avg)
         System.out.println("Biker 1 is qualified ");
