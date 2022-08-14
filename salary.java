@@ -1,7 +1,8 @@
-public class salary{
+public class income
+{
 	public static void main(String[]args){
 	int empno=345;
-	String empname= "Nihit Sahu";
+	String empname= "Nishchit Sahu";
 	
 	float basic=40000;
 	float DA,HRA,PF,NS,GS;
@@ -14,7 +15,7 @@ public class salary{
 	
 	GS=basic+DA+HRA+PF+CCA+PT;
 	NS=GS-(PF+PT);
-	
+	System.out.println("Salaries are ");
 	System.out.println(" GROSS SALARY= "+GS);
 	System.out.println(" NET SALARY= "+NS);
 	
