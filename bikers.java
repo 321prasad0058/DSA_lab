@@ -2,8 +2,8 @@ public class bikers1
 {
 	public static void main(String[]args)
 	{
-    int b=5;
-    int s1=100,s2=120,s3=140,s4=160,s5=120;
+    int b=6;
+    int s1=120,s2=140,s3=150,s4=160,s5=110;
     int avg;
 
     avg=(s1+s2+s3+s4+s5)/5;
